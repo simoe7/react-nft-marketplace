@@ -1,0 +1,33 @@
+.z-20 {
+  z-index: 20;
+}
+.opacity-20 {
+}
+.width {
+  width: 400px;
+  margin: 0 auto;
+}
+.absolute-center {
+  /* Need a specific value to work */
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  /* transform: translateX(-50%) translateY(-50%); */
+}
+
+.bg-gray-500 {
+  background-color: rgba(107, 114, 128, 0.75);
+}
+/* .bg-gray-200 {
+  background-color: rgba(107, 114, 128, 0.99);
+} */
+.bg-gray-200 {
+  background: rgba(0, 0, 0, 0.63);
+  border-radius: 20px;
+}
+
+.border {
+  border-width: 1px;
+}

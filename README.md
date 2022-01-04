@@ -1,2 +1,7 @@
-# react-nft-marketplace
-A frontend application created with react for  nft marketplace 
+# A Connect Metamask and walletConnect to your web3 js client 
+## React code to easly connect your wallet 
+
+
+## 
+
+
