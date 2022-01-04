@@ -2,6 +2,8 @@
 ## React code to easly connect your wallet 
 
 
-## 
+## Screens 
 
+# Modal 
+![alt text](./screens/modal.png)
 
