@@ -13,7 +13,7 @@ function Modal({modalOpen,setModalOpen,...props}) {
         <div  className={`h-100 z-20 position-fixed left-0 w-100 top-0 bg-opacity-20 bg-gray-500 ${modalOpen? "":"d-none"}`}>
             <div  ref={ref} className={"absolute-center width bg-gray-200 shadow-md p-3 rounded-md"}>
  
-                <div>
+                <div className="">
                     {props.children}
                 </div>
                 

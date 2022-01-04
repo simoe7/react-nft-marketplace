@@ -307,13 +307,14 @@ function Header() {
                 <h4 className="w-text mb-10" data-wow-delay="0.3s">Connect Your Wallet to Start collecting, Buying and Selling NFTs.</h4>
                 
                 <div>
-                    <button onClick={connectMetaMask} className="py-1 px-2  border-raduis bg-gray-40">
-                        <img src={ConnectWalletIconsw1} width="30" className="wal-icon" alt="" />
-                        connect with MetaMask
-                    </button>
-                    <button onClick={connectWalletConnect}  className="py-1 px-2  border-raduis bg-gray-40">
-                        <img src={ConnectWalletIconsw2} width="30" className="wal-icon" alt="" />connect with WalletConnect
-                    </button>
+                    <div onClick={connectMetaMask} className="modal-item ">
+                        <img src={ConnectWalletIconsw1} width="40" className="wal-icon" alt="" />
+                        Connect with MetaMask
+                    </div>
+                    <div onClick={connectWalletConnect}  className="modal-item ">
+                        <img src={ConnectWalletIconsw2} width="40" className="wal-icon" alt="" />
+                        Connect with WalletConnect
+                    </div>
                 </div>
             </div>
         </Modal>
